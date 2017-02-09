@@ -1,0 +1,11 @@
+{
+  "name": "currency-fair-ui",
+  "version": "1.0.0",
+  "description": "Tech test for Currency Fair",
+  "main": "index.js",
+  "author": "Andrew Caulfield",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
