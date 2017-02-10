@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  background-color: $background-primary;
+}
+
+.transaction-container {
+  order: 1;
+  flex: 3;
+}
+
+.receipt-container {
+  order: 2;
+  flex: 2;
+  height: 100vh;
+  background-color: $background-secondary;
+  border: solid 1px #E0E0E0;
+}
+
+.content {
+  padding: 4em;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 550px;
+}
+
+
+.transaction {
+  display: flex;
+  padding: 1em;
+  height: 60px;
+  width: 100%;
+}
+
+.transaction--send {
+  border: 1px solid $blue-primary;
+}
+
+.transaction--receive {
+  border: 1px solid $gray-border;
+}

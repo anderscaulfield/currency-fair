@@ -1,0 +1,30 @@
+// Colors
+$blue-primary: #6ec0e8;
+$background-primary: #fff;
+$background-secondary: #fbfbfb;
+$navy: #32323c;
+$gray: #b0bec5;
+
+$gray-border: #e6e6e6;
+
+
+// Typography
+$font-size-base: 16px;
+
+$font-size-h1: 40px;
+$font-size-h2: 30px;
+$font-size-h3: 20px;
+$font-size-h4: 18px;
+$font-size-h5: 16px;
+$font-size-h6: 12px;
+
+
+@font-face {
+  font-family: "PostGrotesk-Medium";
+  src: url("../fonts/PostGrotesk-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$primary-font: "PostGrotesk-Medium";
+

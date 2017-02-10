@@ -1,0 +1,66 @@
+@import "variables";
+@import "mixins";
+@import "layout";
+@import "base";
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $primary-font;
+}
+
+header {
+  height: 66px;
+  background-color: $navy;
+}
+
+
+.progress {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.progress--aligner {
+  display: flex;
+  -webkit-box-direction: normal;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.progress__step {
+  padding: 5px;
+  height: 60px;
+  width: 31%;
+  border-bottom: 3px solid rgba(110, 192, 230, 0.2);
+  color: $gray;
+  justify-content: center;
+}
+
+.progress--active {
+  border-bottom: 3px solid $blue-primary;
+  color: $blue-primary;
+}
+
+@media (max-width: 960px) {
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  .transaction-container {
+    order: 1;
+  }
+
+  .receipt-container {
+    order: 2;
+  }
+}
