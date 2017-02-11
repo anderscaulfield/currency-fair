@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $primary-font;
+}
+
+header {
+  height: 66px;
+  background-color: $navy;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.logo {
+  padding-left: 7em;
+  height: 42px;
+  width: 124px;
+}

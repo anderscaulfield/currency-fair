@@ -1,0 +1,71 @@
+.transaction {
+  display: flex;
+  height: 98px;
+  padding: 0;
+  border-radius: 4px;
+  align-items: center;
+
+  .transaction__currency {
+    display: flex;
+    width: 90px;
+    height: 47px;
+    padding-right: 10px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    }
+
+  .transaction__currency--receive {
+    background-color: #FAFAFA;
+    }
+  .transaction__currency__text,
+  .transaction__currency__flag {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    }
+
+  .transaction__amount {
+    margin-top: 0.5em;
+    font-size: 21px;
+    letter-spacing: 2px;
+    }
+
+  .transaction__amount--small {
+    font-size: 12px;
+    }
+
+  .transaction__description {
+    flex: 1;
+    margin-left: 24px;
+    padding: 12px;
+    font-size: 14px;
+    }
+
+  .transaction__heading--send {
+    color: $blue-primary;
+    font-size: 14px;
+    }
+
+  .transaction__heading--receive {
+    color: $gray;
+    font-size: 14px;
+    }
+
+  .transaction-heading {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3em;
+    font-family: "PostGrotesk-Book";
+
+    h2 {
+      width: 100%;
+    }
+
+    p {
+      color: $gray-darker;
+    }
+    }
+}

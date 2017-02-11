@@ -1,0 +1,29 @@
+.progress {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.progress--aligner {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-direction: normal;
+  width: 100%;
+}
+
+.progress__step {
+  width: 31%;
+  height: 55px;
+  padding: 5px;
+  color: $gray;
+  justify-content: center;
+  border-bottom: 3px solid rgba(110, 192, 230, 0.2);
+}
+
+.progress--active {
+  border-bottom: 3px solid $blue-primary;
+  color: $blue-primary;
+}
