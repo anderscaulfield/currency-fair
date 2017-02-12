@@ -1,50 +1,61 @@
 .receipt {
-  border: 1px solid $gray-border;
-  height: 100px;
+  border: 2px solid $gray-border;
   width: 310px;
-  padding: 0;
-  margin: 0;
-  font-family: $primary-font;
+  font-family: $post-medium;
+  border-radius: 4px;
 
   .receipt__header {
-    padding: 1em;
+    padding: 1.1em;
     background-color: $background-secondary;
-    border: 1px solid $gray-border;
-    color: #616161;
-    font-size:14px;
+    border-bottom: 1px solid $gray-border;
+    color: $receipt-dark-gray;
   }
 
   .receipt__details {
-    padding: 1em;
+    padding: 1.1em;
+    padding-bottom: 0;
     background-color: $background-primary;
-    border: 1px solid $gray-border;
-    font-family: "PostGrotesk-Book";
-    font-size: 14px;
+    border-bottom: 1px solid $gray-border;
+    font-family: $post-book;
     color: $gray-darkest;
+    .receipt__details--dark {
+      background-color: $background-secondary;
+      color: $receipt-dark-gray;
+      font-family: $post-medium;
+    }
   }
 
   .receipt__row {
     display: flex;
     margin-bottom: 1em;
+    justify-content: space-between;
   }
 
-  .receipt__item--left {
+  .receipt__left {
     display: flex;
-    width: 50%;
-    font-size: 14px;
-    font-family: "PostGrotesk-Book";
+    flex: 1;
+    font-family: $post-book;
   }
 
-  .receipt__item--right {
-    display: flex;
-    width: 50%;
-    text-align: right;
-    font-size: 14px;
+  .receipt__right {
+    margin-left: auto;
   }
+
+      .receipt__right--blue {
+      font-size: $small;
+      color: $blue-primary;
+      font-family: $post-book;
+    }
+
+  .receipt__right--dark {
+    font-family: $post-book;
+    color: $receipt-dark-gray;
+    }
 
   .receipt__saving {
     color: $yellow;
-    font-size: 12px;
+    font-size: $small;
     text-align: center;
+    margin-bottom: 1em;
   }
  }

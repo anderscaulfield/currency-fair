@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: $primary-font;
+  font-family: $post-medium;
+  font-size: 14px;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
 }
 
 p {
-  font-family: "PostGrotesk-Book";
+  font-family: $post-book;
   font-size: 14px;
   line-height: 1.8em;
 }
@@ -22,5 +23,13 @@ p {
   padding-left: 7em;
   height: 42px;
   width: 124px;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+textarea:focus, input:focus {
+  outline: none;
 }
 

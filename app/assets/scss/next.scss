@@ -1,21 +1,37 @@
-.next {
+.button {
   display: flex;
-  width: 100%;
   margin-top: 2em;
-
-  .next__button {
-    display: flex;
+  width: 100%;
+  cursor: pointer;
+  .button__base {
     height: 49px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
-    margin-right: auto;
-    color: $background-primary;
     font-size: 16px;
-    justify-content: center;
-    background-color: $blue-primary;
-    border: 1px solid #589AB8;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+    font-weight: normal;
   }
+
+  .button__primary {
+    color: $background-primary;
+    background-color: $blue-primary;
+    border: 1px solid #589AB8;
+
+    &:hover {
+      border-color: #6EC0E6;
+      background-color: #8BCDEB;
+    }
+  }
+
+  .button__secondary {
+    border: 1px solid $gray-border;
+    margin-left: 1em;
+    background-color: $gray-light;
+  }
+}
+
+button:focus {
+  outline: 0;
 }

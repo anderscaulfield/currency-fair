@@ -1,6 +1,6 @@
 .progress {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow:  wrap;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -14,15 +14,8 @@
   padding-left: 40px;
 }
 
-.progress--aligner {
-  display: flex;
-  flex-wrap: wrap;
-  // -webkit-box-direction: normal;
-  width: 100%;
-}
-
 .progress__step {
-  width: 31%;
+  width: 31.5%;
   height: 55px;
   padding: 5px;
   color: $gray;
@@ -33,4 +26,11 @@
 .progress--active {
   border-bottom: 3px solid $blue-primary;
   color: $blue-primary;
+}
+
+@media (max-width: 900px)  {
+    .progress__step {
+    width: 100%;
+    flex-flow: column-wrap;
+  }
 }

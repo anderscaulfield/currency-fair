@@ -17,11 +17,6 @@
     width: 100%;
   }
 
-  .progress__step {
-    width: 100%;
-    flex-flow: column-wrap;
-  }
-
   .transaction-container {
     order: 1;
   }
@@ -30,9 +25,3 @@
     order: 2;
   }
 }
-
-// @media (max-width: 460px) {
-//   .verification__digits  {
-//       flex-flow: row wrap;
-//   }
-// }

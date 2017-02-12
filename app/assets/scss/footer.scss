@@ -3,20 +3,20 @@ footer {
   display: flex;
   width: 100%;
   margin-top: 3em;
-  font-size: 12px;
+  font-size: $small;
   color: $blue-primary;
   border-top: 1px solid $gray-border;
 
   p {
     flex: 1 0 auto;
     color: $gray;
-    font-size: 12px;
-    font-family: "PostGrotesk-Book";
+    font-size: $small;
+    font-family: $post-book;;
   }
 
   a {
     padding-left: 1em;
-    font-size: 12px;
+    font-size: $small;
   }
   .footer_left {
     text-align: left;

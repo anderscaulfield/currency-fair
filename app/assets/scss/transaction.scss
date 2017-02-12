@@ -28,13 +28,12 @@
     }
 
   .transaction__amount {
-    margin-top: 0.5em;
-    font-size: 21px;
+    font-size: 26px;
     letter-spacing: 2px;
     }
 
   .transaction__amount--small {
-    font-size: 12px;
+    font-size: $small;
     }
 
   .transaction__description {
@@ -46,19 +45,21 @@
 
   .transaction__heading--send {
     color: $blue-primary;
-    font-size: 14px;
+    font-weight: normal;
+    font-family: $post-book;
     }
 
   .transaction__heading--receive {
     color: $gray;
-    font-size: 14px;
+    font-weight: normal;
+    font-family: $post-book;
     }
 
   .transaction-heading {
     display: flex;
     width: 100%;
     margin-bottom: 3em;
-    font-family: "PostGrotesk-Book";
+    font-family: $post-book;
 
     h2 {
       width: 100%;
