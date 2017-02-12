@@ -6,9 +6,11 @@
 @import "transaction";
 @import "details";
 @import "next";
+@import "receipt";
+@import "modal";
 @import "footer";
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .container {
     display: flex;
     flex-flow: column wrap;
@@ -28,3 +30,9 @@
     order: 2;
   }
 }
+
+// @media (max-width: 460px) {
+//   .verification__digits  {
+//       flex-flow: row wrap;
+//   }
+// }

@@ -1,0 +1,50 @@
+.receipt {
+  border: 1px solid $gray-border;
+  height: 100px;
+  width: 310px;
+  padding: 0;
+  margin: 0;
+  font-family: $primary-font;
+
+  .receipt__header {
+    padding: 1em;
+    background-color: $background-secondary;
+    border: 1px solid $gray-border;
+    color: #616161;
+    font-size:14px;
+  }
+
+  .receipt__details {
+    padding: 1em;
+    background-color: $background-primary;
+    border: 1px solid $gray-border;
+    font-family: "PostGrotesk-Book";
+    font-size: 14px;
+    color: $gray-darkest;
+  }
+
+  .receipt__row {
+    display: flex;
+    margin-bottom: 1em;
+  }
+
+  .receipt__item--left {
+    display: flex;
+    width: 50%;
+    font-size: 14px;
+    font-family: "PostGrotesk-Book";
+  }
+
+  .receipt__item--right {
+    display: flex;
+    width: 50%;
+    text-align: right;
+    font-size: 14px;
+  }
+
+  .receipt__saving {
+    color: $yellow;
+    font-size: 12px;
+    text-align: center;
+  }
+ }

@@ -7,10 +7,17 @@
   margin-bottom: 2em;
 }
 
+.progress--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+
 .progress--aligner {
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-direction: normal;
+  // -webkit-box-direction: normal;
   width: 100%;
 }
 

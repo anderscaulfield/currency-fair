@@ -1,4 +1,5 @@
 footer {
+  padding: 1em;
   display: flex;
   width: 100%;
   margin-top: 3em;
@@ -6,14 +7,17 @@ footer {
   color: $blue-primary;
   border-top: 1px solid $gray-border;
 
-  li {
-    display: flex;
-    flex: 1 1 auto;
-    margin-top: 1em;
-    list-style: none;
-    text-align: right;
+  p {
+    flex: 1 0 auto;
+    color: $gray;
+    font-size: 12px;
+    font-family: "PostGrotesk-Book";
   }
 
+  a {
+    padding-left: 1em;
+    font-size: 12px;
+  }
   .footer_left {
     text-align: left;
   }
