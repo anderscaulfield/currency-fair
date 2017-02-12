@@ -5,23 +5,7 @@
 @import "progress";
 @import "transaction";
 @import "details";
-@import "next";
+@import "button";
 @import "receipt";
 @import "modal";
 @import "footer";
-
-@media (max-width: 900px) {
-  .container {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-  }
-
-  .transaction-container {
-    order: 1;
-  }
-
-  .receipt-container {
-    order: 2;
-  }
-}

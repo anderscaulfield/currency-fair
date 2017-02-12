@@ -20,11 +20,16 @@
   .transaction__currency--receive {
     background-color: $background-secondary;
     }
-  .transaction__currency__text,
-  .transaction__currency__flag {
+  .transaction__text {
     display: flex;
     align-items: center;
     padding-left: 1em;
+    }
+
+    .transaction__flag  {
+      display: flex;
+      align-items: center;
+      padding-left: 1em;
     }
 
   .transaction__amount {

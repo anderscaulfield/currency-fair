@@ -18,6 +18,7 @@
     border-bottom: 1px solid $gray-border;
     font-family: $post-book;
     color: $gray-darkest;
+
     .receipt__details--dark {
       background-color: $background-secondary;
       color: $receipt-dark-gray;
@@ -41,11 +42,11 @@
     margin-left: auto;
   }
 
-      .receipt__right--blue {
-      font-size: $small;
-      color: $blue-primary;
-      font-family: $post-book;
-    }
+  .receipt__right--blue {
+    font-size: $small;
+    color: $blue-primary;
+    font-family: $post-book;
+  }
 
   .receipt__right--dark {
     font-family: $post-book;

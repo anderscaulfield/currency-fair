@@ -2,18 +2,19 @@
 const modal = document.getElementById('myModal');
 
 // Get the button that opens the modal
-const btn = document.getElementById('myBtn');
+const button = document.getElementById('myBtn');
 
+// Overlay for behind the modal
 const overlay = document.getElementById('myOverlay');
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
+button.onclick = () => {
   modal.style.display = 'block';
   overlay.style.display = 'block';
 };
 
 // When the user clicks anywhere outside of the modal, close it
-document.onclick = function(e) {
+document.onclick = (e) => {
   if (e.target.id === 'myOverlay') {
     modal.style.display = 'none';
     overlay.style.display = 'none';

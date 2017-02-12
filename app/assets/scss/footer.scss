@@ -11,13 +11,14 @@ footer {
     flex: 1 0 auto;
     color: $gray;
     font-size: $small;
-    font-family: $post-book;;
+    font-family: $post-book;
   }
 
   a {
     padding-left: 1em;
     font-size: $small;
   }
+
   .footer_left {
     text-align: left;
   }
