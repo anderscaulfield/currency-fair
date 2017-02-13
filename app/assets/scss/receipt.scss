@@ -59,3 +59,9 @@
     margin-bottom: 1em;
   }
  }
+
+ @media (max-width: 900px) {
+    .receipt {
+      margin: 0 auto;
+    }
+ }

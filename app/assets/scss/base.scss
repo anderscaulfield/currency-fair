@@ -19,6 +19,13 @@ p {
   line-height: 1.8em;
 }
 
+a {
+  padding-left: 1em;
+  text-decoration: none;
+  color: $blue-primary;
+  font-size: $small;
+}
+
 .logo {
   padding-left: 7em;
   height: 42px;

@@ -17,11 +17,11 @@
   .button__primary {
     color: $background-primary;
     background-color: $blue-primary;
-    border: 1px solid #589AB8;
+    border: 1px solid $button-border-blue;
 
     &:hover {
-      border-color: #6EC0E6;
-      background-color: #8BCDEB;
+      border-color: $button-border-hover;
+      background-color: $button-background-hover;
     }
   }
 
@@ -29,6 +29,11 @@
     border: 1px solid $gray-border;
     margin-left: 1em;
     background-color: $gray-light;
+  }
+
+  .button--disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 }
 
