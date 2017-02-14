@@ -1,0 +1,77 @@
+.transaction {
+  display: flex;
+  height: 98px;
+  padding: 0;
+  border-radius: 4px;
+  align-items: center;
+
+  .transaction__currency {
+    display: flex;
+    width: 90px;
+    height: 47px;
+    padding-right: 10px;
+    margin-right: 15px;
+    background-color: $background-primary;
+    border: 1px solid $receipt-gray;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    }
+
+  .transaction__currency--receive {
+    background-color: $background-secondary;
+    }
+  .transaction__text {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    }
+
+    .transaction__flag  {
+      display: flex;
+      align-items: center;
+      padding-left: 1em;
+    }
+
+  .transaction__amount {
+    font-size: 26px;
+    letter-spacing: 2px;
+    }
+
+  .transaction__amount--small {
+    font-size: $small;
+    }
+
+  .transaction__description {
+    flex: 1;
+    margin-left: 24px;
+    padding: 12px;
+    font-size: 14px;
+    }
+
+  .transaction__heading--send {
+    color: $blue-primary;
+    font-weight: normal;
+    font-family: $post-book;
+    }
+
+  .transaction__heading--receive {
+    color: $gray;
+    font-weight: normal;
+    font-family: $post-book;
+    }
+
+  .transaction-heading {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3em;
+    font-family: $post-book;
+
+    h2 {
+      width: 100%;
+    }
+
+    p {
+      color: $gray-dark;
+    }
+  }
+}

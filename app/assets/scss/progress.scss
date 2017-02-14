@@ -1,0 +1,30 @@
+.progress {
+  display: flex;
+  flex-flow:  wrap;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.progress--details {
+  padding-left: 40px;
+}
+
+.progress__step {
+  width: 31.5%;
+  height: 55px;
+  padding: 5px;
+  color: $gray;
+  border-bottom: 3px solid rgba(110, 192, 230, 0.2);
+}
+
+.progress--active {
+  border-bottom: 3px solid $blue-primary;
+  color: $blue-primary;
+}
+
+@media (max-width: 900px)  {
+    .progress__step {
+    width: 100%;
+    flex-flow: column-wrap;
+  }
+}
