@@ -1,0 +1,20 @@
+footer {
+  padding: 1em;
+  display: flex;
+  width: 100%;
+  margin-top: 3em;
+  font-size: $small;
+  color: $blue-primary;
+  border-top: 1px solid $gray-border;
+
+  p {
+    flex: 1 0 auto;
+    color: $gray;
+    font-size: $small;
+    font-family: $post-book;
+  }
+
+  .footer_left {
+    text-align: left;
+  }
+}

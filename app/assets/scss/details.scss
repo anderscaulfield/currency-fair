@@ -1,0 +1,16 @@
+.details {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 3em;
+  letter-spacing: 1.5px;
+
+  .details__heading {
+    line-height: 1.5em;
+    font-size: 18px;
+    color: $details-black;
+  }
+
+  .details__paragraph {
+    color: $gray-darkest;
+  }
+}

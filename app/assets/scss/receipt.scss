@@ -1,0 +1,67 @@
+.receipt {
+  border: 2px solid $gray-border;
+  width: 310px;
+  font-family: $post-medium;
+  border-radius: 4px;
+
+  .receipt__header {
+    padding: 1.1em;
+    background-color: $background-secondary;
+    border-bottom: 1px solid $gray-border;
+    color: $receipt-dark-gray;
+  }
+
+  .receipt__details {
+    padding: 1.1em;
+    padding-bottom: 0;
+    background-color: $background-primary;
+    border-bottom: 1px solid $gray-border;
+    font-family: $post-book;
+    color: $gray-darkest;
+
+    .receipt__details--dark {
+      background-color: $background-secondary;
+      color: $receipt-dark-gray;
+      font-family: $post-medium;
+    }
+  }
+
+  .receipt__row {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+  }
+
+  .receipt__left {
+    flex: 1;
+    font-family: $post-book;
+  }
+
+  .receipt__right {
+    margin-left: auto;
+  }
+
+  .receipt__right--blue {
+    font-size: $small;
+    color: $blue-primary;
+    font-family: $post-book;
+  }
+
+  .receipt__right--dark {
+    font-family: $post-book;
+    color: $receipt-dark-gray;
+    }
+
+  .receipt__saving {
+    color: $yellow;
+    font-size: $small;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+ }
+
+ @media (max-width: 900px) {
+    .receipt {
+      margin: 0 auto;
+    }
+ }
