@@ -130,7 +130,7 @@
     }
 
     .verification__input {
-      margin-right: 16px;
+      margin-right: 10px;
     }
   }
 
@@ -159,10 +159,6 @@
 @media (max-width: 460px) {
   .modal {
     max-width: 400px;
-  }
-
-  .verification__input {
-    margin-right: 10px !important;
   }
 
   .button {
