@@ -26,14 +26,15 @@
     padding-left: 1em;
     }
 
-    .transaction__flag  {
-      display: flex;
-      align-items: center;
-      padding-left: 1em;
+  .transaction__flag {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
     }
 
   .transaction__amount {
     font-size: 26px;
+    font-weight: normal;
     letter-spacing: 2px;
     }
 
